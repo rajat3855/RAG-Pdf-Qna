@@ -114,16 +114,4 @@ And add `langchain-openai` and `openai` to `requirements.txt`.
 
 ---
 
-## Project Structure
 
-```
-rag_pdf_qa/
-├── app/
-│   ├── main.py       # FastAPI routes
-│   ├── ingest.py     # PDF ingestion pipeline
-│   └── query.py      # RAG query pipeline
-├── uploads/          # Uploaded PDFs stored here
-├── vectorstore/      # FAISS index saved here
-├── requirements.txt
-└── README.md
-```
